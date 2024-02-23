@@ -15,9 +15,9 @@ useEffect (() => {
 
 return (
  <div className='App'>
-  <h1 className='title'>see news</h1>
+  <h1 className='title'>see new news</h1>
   <Menu active={active} setActive={setActive} setCategory={setCategory}/>
-  <NewsGrid items={items}/>
+  <NewsGrid items={items} />
  </div>
 )
 }
